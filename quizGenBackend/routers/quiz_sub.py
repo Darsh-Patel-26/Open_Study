@@ -48,6 +48,11 @@ async def start_quiz(quizId: str = Body(..., embed=True)):
     quiz = await db.quiz.find_one({"_id": ObjectId(quizId)})
     if not quiz:
         raise HTTPException(status_code=404, detail="Quiz not found")
+    
+    date_val = quiz.get("date_of_quiz")
+    if hasattr(date_val, "isoformat"):
+        date_val = date_val.isoformat()
+
 
     cache = {
         "quizId": str(quiz["_id"]),
@@ -64,7 +69,7 @@ async def start_quiz(quizId: str = Body(..., embed=True)):
         ],
         "answers": quiz.get("answers", []),
         "timeLimit": quiz.get("time_limit", 0),
-        "date_of_quiz": quiz.get("date_of_quiz").isoformat() if quiz.get("date_of_quiz") else None,
+        "date_of_quiz": date_val,
         "cachedAt": datetime.utcnow().isoformat(),
     }
 

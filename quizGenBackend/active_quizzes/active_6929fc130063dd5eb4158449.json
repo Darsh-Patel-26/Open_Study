@@ -1,0 +1,141 @@
+{
+  "quizId": "6929fc130063dd5eb4158449",
+  "title": "Classification ML",
+  "questions": [
+    {
+      "question": "Which of the following is a supervised learning technique used for predicting classes/labels of unseen data based on historical data with pre-defined labels?",
+      "options": [
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Dimensionality Reduction"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "In the classification process, what is the primary purpose of the learning step (training phase)?",
+      "options": [
+        "Predicting class labels",
+        "Constructing a classification model",
+        "Testing the constructed model",
+        "Estimating the accuracy of classification rules"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the key difference between multi-label and multi-class classification?",
+      "options": [
+        "Multi-label allows one object to belong to multiple classes, while multi-class allows only one class per sample.",
+        "Multi-class allows one object to belong to multiple classes, while multi-label allows only one class per sample.",
+        "Multi-label is used for text categorization, while multi-class is used for image classification.",
+        "There is no difference between multi-label and multi-class classification."
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of a validation set in machine learning?",
+      "options": [
+        "To train the model",
+        "To test the model's generalized error",
+        "To choose among multiple hypotheses",
+        "To create a confusion matrix"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following is NOT an advantage of the K-Nearest Neighbors (KNN) algorithm?",
+      "options": [
+        "No separate training phase",
+        "Can generate complex decision boundaries",
+        "Effective if training data is large",
+        "Computationally inexpensive for large datasets"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the 'naive' assumption in the Naive Bayes classifier?",
+      "options": [
+        "Features are dependent on each other",
+        "Features are equally important",
+        "The presence of a particular feature in a class is unrelated to the presence of any other feature",
+        "Data follows a normal distribution"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is Laplacian correction (or smoothing) used for in Naive Bayes?",
+      "options": [
+        "To deal with missing values",
+        "To prevent zero probability",
+        "To improve accuracy on large datasets",
+        "To reduce computational complexity"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the main idea behind Support Vector Machines (SVM)?",
+      "options": [
+        "To minimize the distance between data points",
+        "To create a line or hyperplane that separates data into classes",
+        "To find the nearest neighbors of a data point",
+        "To calculate probabilities of class membership"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which method involves partitioning the data into k mutually exclusive subsets, using one subset as the test set and the others as training sets iteratively?",
+      "options": [
+        "Holdout method",
+        "Random subsampling",
+        "Cross-validation",
+        "Bootstrap"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "In the context of imbalanced datasets, what does SMOTE do?",
+      "options": [
+        "Removes majority class samples",
+        "Synthesizes new minority class samples",
+        "Adjusts class weights",
+        "Changes the evaluation metric"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    }
+  ],
+  "answers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "timeLimit": 600,
+  "date_of_quiz": "2025-11-28T19:46:27.840Z",
+  "cachedAt": "2025-11-28T20:24:32.991523"
+}

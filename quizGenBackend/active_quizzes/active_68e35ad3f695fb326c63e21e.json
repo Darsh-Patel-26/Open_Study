@@ -1,0 +1,76 @@
+{
+  "quizId": "68e35ad3f695fb326c63e21e",
+  "title": "AI: Computer Networks",
+  "questions": [
+    {
+      "question": "What is a computer network?",
+      "options": [
+        "A collection of computers and devices connected together",
+        "A single computer",
+        "A software application",
+        "A type of cable"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following is a common network protocol?",
+      "options": [
+        "TCP/IP",
+        "HTTP",
+        "FTP",
+        "All of the above"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of a router in a network?",
+      "options": [
+        "To forward data packets between networks",
+        "To provide wireless connectivity",
+        "To act as a firewall",
+        "To store data"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is a MAC address?",
+      "options": [
+        "A unique identifier for a network interface",
+        "An IP address",
+        "A domain name",
+        "A type of cable"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which of the following is a network security measure?",
+      "options": [
+        "Firewall",
+        "Antivirus software",
+        "Intrusion detection system",
+        "All of the above"
+      ],
+      "type": "mcq",
+      "weightage": 1,
+      "difficulty": "medium"
+    }
+  ],
+  "answers": [
+    0,
+    3,
+    0,
+    0,
+    3
+  ],
+  "timeLimit": 10,
+  "date_of_quiz": "2025-10-06T05:59:00",
+  "cachedAt": "2025-11-28T17:30:56.071393"
+}
